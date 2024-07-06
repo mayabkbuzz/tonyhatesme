@@ -1,0 +1,41 @@
+*{
+    color:blueviolet;
+    border:6px solid green;
+}
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
+h1{
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    border: 1px solid #444444;
+}
+#unique-text {
+    text-align: center;
+}
+.usable-class{
+    border:2px dashed purple;
+}
+div.usable-class{
+    color:green;
+}
+p.usable-class{
+    margin:30px 1px 90px 50px;
+    margin-right: 40px;
+    padding:30px 1px 90px 50px;
+}
+.items{
+    display:flex;
+    flex-direction:row;
+    align-items: end;
+     /* horizontal-column vertical-row*/
+    min-height: 100vh; 
+    justify-content: center;
+    /* vertical-column hroizontal-row*/
+}
+.item{
+
+}
